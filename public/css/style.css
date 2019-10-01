@@ -438,36 +438,10 @@ a:active {
   color: #666;
 }
 
-.service img {
-  weight: 50px;
-  height: auto;
-  max-height: 50px;
-}
-
 .service .block .imagen {
-  weight: 50px;
-  height: auto;
-  max-height: 50px;
+  weight: 70px;
+  max-height: 70px;
 }
-
-.service  .imagen {
-  weight: 50px;
-  height: auto;
-  max-height: 50px;
-}
-
-.imagen {
-  weight: 50px;
-  height: auto;
-  max-height: 50px;
-}
-
-#imagen {
-  weight: 50px;
-  height: auto;
-  max-height: 50px;
-}
-
 /*--
     About start
 --*/
