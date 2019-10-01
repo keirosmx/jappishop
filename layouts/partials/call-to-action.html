@@ -1,0 +1,31 @@
+{{ if .Site.Params.cta.enable }}
+    {{"<!-- Call To Action Section -->" | safeHTML}}
+    <section class="call-to-action" style='background-image: url("{{ with .Site.Params.cta.bg }}{{.}}{{ end }}")' >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow text-center">
+                    <div class="block">
+                        {{ with .Site.Params.cta.title }}
+                            <h2>{{ . }}</h2>
+                        {{ end }}
+                        {{ with .Site.Params.cta.subtitle }}
+                            <p>{{ . }}</p>
+                        {{ end }}
+                        <div class="col-lg-6 offset-lg-3">
+                            <div class="input-group">
+                              <form action='https://forms.zohopublic.com/administracion14/form/Estreno/formperma/bzGfNxeYPxOiVbsGA8Ae_I5qtY3eiHRzwoyI-mo0vr0/htmlRecords/submit' name='form' id='form' method='POST' accept-charset='UTF-8' enctype='multipart/form-data'>
+                                <input type="hidden" name="zf_referrer_name" value=""><!-- To Track referrals , place the referrer name within the " " in the above hidden input field -->
+                                <input type="hidden" name="zf_redirect_url" value=""><!-- To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field -->
+                                <input type="hidden" name="zc_gad" value=""><!-- If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM -->
+                                <input type="text" class="form-control" placeholder="Tu correo aquí" name="Email" value="" fieldType=9>
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default btn-subscription" type="submit">Suscribirse</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{{ end }}

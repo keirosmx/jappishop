@@ -1,0 +1,123 @@
+baseURL = "https://www.example.com"
+languageCode = "es-MX"
+title = "Jappi.Shop"
+theme = "infinity-hugo"
+
+[params]
+
+    # Navigation
+    [params.navigation]
+        logo = "images/logo.png"
+        home = "Inicio"
+        about = "Sobre Nosotros"
+        service = "Servicios"
+        contact = "Contacto"
+
+    # Hero Area
+    [params.hero]
+        enable      = true
+        bg          = "images/header-bg.jpg"
+        title       = "Jappi.Shop proximante"
+        subtitle    = "Las mejores ofertas en Tecnología y Computación"
+        btnText     = "¿Qué venderemos?"
+        countdownYear = "2019"
+        countdownMonth = "11"
+        countdownDay  = "01"
+
+    # About Section
+    [params.about]
+        enable      = true
+        heading     = "¿Quienes somos y que vendemos?"
+        description = "Somos una nueva tienda en linea para distribución en México en donde podrás encontrar lo mejor en tecnología como son Laptops, Computadoras de Escritorio, Tarjetas de Vídeo, Pantallas, Monitores, Celulares, Redes, Software y entre muchas catégorias."
+
+        [[params.about.sliderItem]]
+            image   = "images/about/1.jpg"
+        [[params.about.sliderItem]]
+            image   = "images/about/2.jpg"
+        [[params.about.sliderItem]]
+            image   = "images/about/3.jpg"
+        [[params.about.sliderItem]]
+            image   = "images/about/2.jpg"
+
+
+    # Service Section
+    [params.service]
+        enable      = true
+        title       = "Tus marcas favorias"
+        subtitle    = "Contaremos con las mejores y más reconocidas marcas cómo son:"
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            image2   = "images/marcas/hp.png"
+            title   = "HP"
+            delay   = "0s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            image2   = "images/marcas/dell.png"
+            title   = "Dell"
+            delay   = "0.2s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            image2   = "images/marcas/asus.svg"
+            title   = "Asus"
+            delay   = "0.4s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            image2   = "images/marcas/epson.svg"
+            title   = "Epson"
+            delay   = "0.6s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            image2   = "images/marcas/ryzer.png"
+            title   = "Ryzer"
+            delay   = "0.8s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            image2   = "images/marcas/logitechg.png"
+            title   = "Logitechg"
+            delay   = "1s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            image2   = "images/marcas/msi_2.jpg"
+            title   = "MSI"
+            delay   = "1.2s"
+
+        [[params.service.serviceItem]]
+            # give icon(themefisher icon font), title, description
+            # more about themefisher icon font visit https://github.com/themefisher/themefisher-font
+            # use delay for reveal items one by one
+            image2   = "images/marcas/samsung.png"
+            title   = "Samsung"
+            delay   = "1.5s"
+
+
+    # Call to Action Section
+    [params.cta]
+        enable      = true
+        bg          = "images/call-to-action.jpg"
+        title       = "Suscríbete para avisarte cuando disponible la Tienda Online"
+        subtitle    = "Y recibe una sorpresa el día de la gran inauguración"
+
+    [params.contact]
+        enable      = false
+        title       = "Get In Touch"
+        subtitle    = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex"
