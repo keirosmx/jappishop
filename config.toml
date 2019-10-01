@@ -1,4 +1,3 @@
-baseURL = "https://www.example.com"
 languageCode = "es-MX"
 title = "Jappi.Shop"
 theme = "infinity-hugo"
