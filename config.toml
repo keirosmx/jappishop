@@ -1,3 +1,4 @@
+baseURL = "https://keirosmx.github.io/jappishop/"
 languageCode = "es-MX"
 title = "Jappi.Shop"
 theme = "infinity-hugo"
