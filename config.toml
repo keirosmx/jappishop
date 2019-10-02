@@ -8,7 +8,7 @@ publishDir = "docs"
 
     # Navigation
     [params.navigation]
-        logo = "images/logo.png"
+        logo = "images/logo_jappishop.jpg"
         home = "Inicio"
         about = "Sobre Nosotros"
         service = "Servicios"
