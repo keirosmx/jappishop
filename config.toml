@@ -1,4 +1,4 @@
-baseURL = "http://jappi.shop/"
+baseURL = "https://jappi.shop/"
 languageCode = "es-MX"
 title = "Jappi.Shop"
 theme = "infinity-hugo"
